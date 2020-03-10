@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "629966728340",
+    "firebase_url": "https://vaccination-records-bde15.firebaseio.com",
+    "project_id": "vaccination-records-bde15",
+    "storage_bucket": "vaccination-records-bde15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629966728340:android:6e6637a5e75984059e5881",
+        "android_client_info": {
+          "package_name": "com.example.vaccinationrecordes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629966728340-jcrk866qf5ugdl70ut07s3e91igddjbv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vaccinationrecordes",
+            "certificate_hash": "fb3f921a1a919944c10d2d4f1f5a13d6a4daff9f"
+          }
+        },
+        {
+          "client_id": "629966728340-p62a1e7epapmpjb5hj46rh58jkva25bt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpU3nezNAmznqsTFzpV6sHxOLXzjjpfHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629966728340-p62a1e7epapmpjb5hj46rh58jkva25bt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

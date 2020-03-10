@@ -1,0 +1,2 @@
+rootProject.name='Vaccination recordes'
+include ':app'

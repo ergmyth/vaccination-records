@@ -1,0 +1,57 @@
+<resources>
+	<string name="app_name">Vaccination recordes</string>
+	<string name="people">Пациенты</string>
+	<string name="meds">Прививки</string>
+	<string name="add_med">Добавить прививку</string>
+	<string name="add_man">Добавить пациента</string>
+	<string name="del">Удалить</string>
+	<string name="update">Изменить</string>
+	<string name="enter_name">Введите наименование</string>
+	<string name="enter_amount">Введите количество</string>
+	<string name="save">Сохранить</string>
+	<string name="saved">Сохранено</string>
+	<string name="cancel">Отменить</string>
+	<string name="change">Изменить</string>
+	<string name="delete">Удалить</string>
+	<string name="deleted">Удалено</string>
+	<string name="invalid_name">Препарат с таким именем уже существует</string>
+	<string name="invalid_enter">Заполните все поля</string>
+	<string name="amount">В наличии:</string>
+	<string name="name">Наименование</string>
+	<string name="del_error">Невозможно удалить последний препарат</string>
+
+	<string name="people_name">Введите имя</string>
+	<string name="people_surname">Введите фамилию</string>
+	<string name="people_father_name">Введите отчество</string>
+	<string name="people_gender">Укажите пол</string>
+	<string name="people_birthday">Укажите дату рождения</string>
+	<string name="people_birthday_button">Указать дату рождения</string>
+	<string name="people_special_number">Введите СНИЛС</string>
+	<string name="search_invalid">СНИЛС не найден</string>
+	<string name="people_birthday_invalid">Неверная дата рождения</string>
+	<string name="special_number_invalid">Неверный СНИЛС</string>
+
+	<string name="people_screen_name">Имя</string>
+	<string name="people_screen_surname">Фамилия</string>
+	<string name="people_screen_father_name">Отчество</string>
+	<string name="people_screen_birthday">День рождения</string>
+	<string name="people_screen_snils">СНИЛС</string>
+	<string name="people_screen_gender">Пол</string>
+	<string name="people_screen_list">Список прививок</string>
+	<string name="next">Следующий</string>
+	<string name="prev">Предыдущий</string>
+	<string name="empty">Не указано</string>
+	<string name="agree">Наличие согласия</string>
+	<string name="agree_yes">Есть</string>
+	<string name="agree_no">Нет</string>
+	<string name="date">Дата проведения</string>
+	<string name="off">Нет</string>
+	<string name="on">Да</string>
+	<string name="availability_error">Отсутствует в наличии</string>
+
+
+	<string name="required_field_name">Укажите имя</string>
+	<string name="required_field_surname">Укажите фамилию</string>
+	<string name="required_field_birthday">Укажите дату рождения</string>
+	<string name="required_field_gender">Укажите пол</string>
+</resources>

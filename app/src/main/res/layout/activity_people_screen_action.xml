@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".people.PeopleScreen">
+
+	<EditText
+		android:id="@+id/name"
+		android:layout_width="260dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:hint="@string/people_name"
+		android:inputType="text"
+		android:maxLength="200" />
+
+	<EditText
+		android:id="@+id/surname"
+		android:layout_width="260dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:hint="@string/people_surname"
+		android:inputType="text"
+		android:maxLength="200" />
+
+	<EditText
+		android:id="@+id/father_name"
+		android:layout_width="260dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:hint="@string/people_father_name"
+		android:inputType="text"
+		android:maxLength="200" />
+
+	<EditText
+		android:id="@+id/gender"
+		android:layout_width="260dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:hint="@string/people_gender"
+		android:inputType="text"
+		android:maxLength="40" />
+
+	<EditText
+		android:id="@+id/snils"
+		android:layout_width="260dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:hint="@string/people_special_number"
+		android:inputType="number"
+		android:maxLength="11" />
+
+	<TextView
+		android:layout_width="240dp"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:layout_gravity="center"
+		android:layout_marginTop="10dp"
+		android:id="@+id/dateTextView"
+		android:text="@string/people_birthday" />
+
+	<Button
+		android:id="@+id/dateButton"
+		android:layout_width="220dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_gravity="center"
+		android:onClick="setDate"
+		android:text="@string/people_birthday_button"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_marginTop="10dp"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:orientation="horizontal">
+		<Button
+			android:layout_width="120dp"
+			android:id="@+id/cancel_button"
+			android:layout_marginEnd="10dp"
+			android:layout_height="wrap_content"
+			android:text="@string/cancel"/>
+		<Button
+			android:layout_width="120dp"
+			android:id="@+id/save_button"
+			android:layout_height="wrap_content"
+			android:text="@string/save"/>
+	</LinearLayout>
+
+</LinearLayout>
